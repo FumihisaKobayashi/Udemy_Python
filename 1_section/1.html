@@ -1,0 +1,19 @@
+memo
+データ読み込み
+
+import pandas  as pd
+import numpy as np
+from matplotlib import pyplot as plt
+%matplotlib inline
+
+<!--データ読み込み-->
+train = pd.read_csv("train.csv")
+
+<!--データの中身見る-->
+train.head()
+
+<!--最終ぎょう確認-->
+train.tail()
+
+<!--行数と列数の確認-->
+train.shape
